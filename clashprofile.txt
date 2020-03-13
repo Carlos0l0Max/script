@@ -13,7 +13,7 @@ surge_ruleset=DIRECT,[]GEOIP,CN
 surge_ruleset=🐟 自定义-漏网之鱼,[]FINAL
 
 ;GPSET
-custom_proxy_group=🚪 节点选择`select`[]✈️ 自动选择-中继`[]✈️ 均衡模式-中继`[]🛰 自动选择-专线`[]🛰 均衡模式-专线`[]⏩ 直连`select`.*
+custom_proxy_group=🚪 节点选择`select`[]✈️ 自动选择-中继`[]✈️ 均衡模式-中继`[]🛰 自动选择-专线`[]🛰 均衡模式-专线`[]🌌 自动选择-花卷`[]🌌 均衡模式-花卷`[]⏩ 直连`select`.*
 custom_proxy_group=📺 分流-流媒体`select`[]🚪 节点选择`[]✈️ 自动选择-中继`[]🌌 自动选择-花卷`(花卷)`[]⏩ 直连
 custom_proxy_group=🎥 分流-NETFLIX`select`[]🚪 节点选择`[]✈️ 自动选择-中继`(新加坡)`[]⏩ 直连
 custom_proxy_group=📲 分流-电报代理`select`[]🚪 节点选择`[]🛰 自动选择-专线`[]⏩ 直连
