@@ -13,15 +13,15 @@ surge_ruleset=DIRECT,[]GEOIP,CN
 surge_ruleset=🐟 自定义-漏网之鱼,[]FINAL
 
 ;GPSET
-custom_proxy_group=🌌 节点选择`select`[]✈️ 自动选择-花卷`[]✈️ 负载均衡-花卷`[]🛰 自动选择-香港`[]🛰 负载均衡-香港`[]🛴 自动选择-中继`[]🛴 负载均衡-中继`[]🧽 自动选择-专线`[]🧽 负载均衡-专线`[]⏩ 直连`select`.*
-custom_proxy_group=📺 分流-流媒体`select`[]🌌 节点选择`[]✈️ 自动选择-花卷`(花卷)`[]⏩ 直连
-custom_proxy_group=🎥 分流-NETFLIX`select`[]🌌 节点选择`[]✈️ 自动选择-花卷`(新加坡)`[]⏩ 直连
+custom_proxy_group=🌌 节点选择`select`[]✈️ 自动选择-IPLC`[]✈️ 负载均衡-IPLC`[]🛰 自动选择-香港`[]🛰 负载均衡-香港`[]🛴 自动选择-中继`[]🛴 负载均衡-中继`[]🧽 自动选择-专线`[]🧽 负载均衡-专线`[]⏩ 直连`select`.*
+custom_proxy_group=📺 分流-流媒体`select`[]🌌 节点选择`[]✈️ 自动选择-IPLC`(IPLC)`[]⏩ 直连
+custom_proxy_group=🎥 分流-NETFLIX`select`[]🌌 节点选择`[]✈️ 自动选择-IPLC`(新加坡)`[]⏩ 直连
 custom_proxy_group=📲 分流-电报代理`select`[]🌌 节点选择`[]🛰 自动选择-香港`[]⏩ 直连
 custom_proxy_group=🛑 自定义-广告拦截`select`[]🚫 屏蔽`[]⏩ 直连
 custom_proxy_group=🌏 自定义-国内网站`select`[]⏩ 直连`[]🌌 节点选择
-custom_proxy_group=🐟 自定义-漏网之鱼`select`[]⏩ 直连`[]🌌 节点选择`[]✈️ 自动选择-花卷`[]✈️ 负载均衡-花卷
-custom_proxy_group=✈️ 自动选择-花卷`url-test`(花卷)`http://www.gstatic.com/generate_204`400
-custom_proxy_group=✈️ 负载均衡-花卷`load-balance`(花卷)`http://www.gstatic.com/generate_204`400
+custom_proxy_group=🐟 自定义-漏网之鱼`select`[]⏩ 直连`[]🌌 节点选择`[]✈️ 自动选择-IPLC`[]✈️ 负载均衡-IPLC
+custom_proxy_group=✈️ 自动选择-IPLC`url-test`(IPLC)`http://www.gstatic.com/generate_204`400
+custom_proxy_group=✈️ 负载均衡-IPLC`load-balance`(IPLC)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=🛰 自动选择-香港`url-test`(港)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=🛰 负载均衡-香港`load-balance`(港)`http://www.gstatic.com/generate_204`400
 custom_proxy_group=🛴 自动选择-中继`url-test`(中继|中转)`http://www.gstatic.com/generate_204`400
